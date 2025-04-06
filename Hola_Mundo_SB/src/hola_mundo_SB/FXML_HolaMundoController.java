@@ -16,7 +16,7 @@ public class FXML_HolaMundoController implements Initializable {
     private Label lbTexto;
 
     @FXML
-    private void handleButtonAction(ActionEvent event) {
+    private void handleButtonAction (ActionEvent event) {
         System.out.println("You clicked me!");
         lbTexto.setText("Hello World!");
     }
